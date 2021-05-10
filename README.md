@@ -96,14 +96,14 @@ Our `package.json` includes scripts for starting the development server, buildin
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
 ```
 
@@ -116,11 +116,17 @@ Our `package.json` includes scripts for starting the development server, buildin
   <h1>{{ msg }}</h1>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
+    <a
+      href="https://vitejs.dev/guide/features.html"
+      target="_blank"
+    >
       Vite Documentation
     </a>
     |
-    <a href="https://v3.vuejs.org/" target="_blank">
+    <a
+      href="https://v3.vuejs.org/"
+      target="_blank"
+    >
       Vue 3 Documentation
     </a>
   </p>
@@ -136,13 +142,13 @@ Our `package.json` includes scripts for starting the development server, buildin
 </template>
 
 <script setup>
-import { defineProps, reactive } from 'vue'
+  import { defineProps, reactive } from 'vue'
 
-defineProps({
-  msg: String
-})
+  defineProps({
+    msg: String
+  })
 
-const state = reactive({ count: 0 })
+  const state = reactive({ count: 0 })
 </script>
 
 <style scoped>
@@ -178,17 +184,17 @@ a {
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
+  import { defineProps } from 'vue'
 
-defineProps({
-  msg: String
-})
+  defineProps({
+    msg: String
+  })
 </script>
 
 <style scoped>
-a {
-  color: #42b983;
-}
+  a {
+    color: #42b983;
+  }
 </style>
 ```
 
@@ -207,14 +213,14 @@ a {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
 ```
 

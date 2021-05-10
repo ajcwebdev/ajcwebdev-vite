@@ -152,9 +152,9 @@ Our `package.json` includes scripts for starting the development server, buildin
 </script>
 
 <style scoped>
-a {
-  color: #42b983;
-}
+  a {
+    color: #42b983;
+  }
 </style>
 ```
 
